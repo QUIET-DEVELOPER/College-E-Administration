@@ -1,8 +1,9 @@
-
+// Admin class representing a department or course
 public class Admin {
-	private int id;
-	private String name;
-	
+	private int id; // ID of the department or course
+	private String name; // Name of the department or course
+
+	// Getter and Setter methods for ID and Name
 	public int getId() {
 		return id;
 	}
@@ -15,10 +16,14 @@ public class Admin {
 	public void setName(String name) {
 		this.name = name;
 	}
+
+	// Overriding toString method to display ID and Name
 	@Override
 	public String toString() {
 		return "id= " + id + ", name= " + name ;
 	}
+
+	// Constructor to initialize ID and Name
 	public Admin(int id, String name) {
 		super();
 		this.id = id;
