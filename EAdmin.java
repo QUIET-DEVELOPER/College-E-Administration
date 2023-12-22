@@ -56,7 +56,7 @@ public class EAdmin {
 		}
 		else {
 			dept.remove(empdelete);
-			System.out.println("Department deleted successfully!!");
+			System.out.println("Department deleted successfully!");
 		}
 	}
 
@@ -78,7 +78,7 @@ public class EAdmin {
 		}
 		else {
 			course.remove(empdelete);
-			System.out.println("course deleted successfully!!");
+			System.out.println("course deleted successfully!");
 		}
 	}
 
@@ -94,7 +94,7 @@ public class EAdmin {
 		
 		dept.add(dep);
 		System.out.println(dep);
-		System.out.println("Department addeed successsfully");
+		System.out.println("Department addeed successsfully!");
 		
 	}
 
@@ -110,7 +110,7 @@ public class EAdmin {
 		
 		course.add(course1);
 		System.out.println(course);
-		System.out.println("course addeed successsfully");
+		System.out.println("course addeed successfully!");
 		
 	}
 }
